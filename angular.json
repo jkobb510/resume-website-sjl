@@ -91,6 +91,13 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2,
+            "browserTarget": "resume-website-jl:build:production"
+          }
         }
       }
     }

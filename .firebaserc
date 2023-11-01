@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "portfolio-website-e40e5"
+  },
+  "targets": {
+    "portfolio-website-e40e5": {
+      "hosting": {
+        "resume-website-jl": [
+          "portfolio-website-e40e5"
+        ]
+      }
+    }
+  }
+}
