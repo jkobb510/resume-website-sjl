@@ -9,15 +9,15 @@
 .column {
   float: left;
   width: 100px;
-  padding: 1px;
+  padding: 5px;
   height: 150px;
   text-align: center;
-  margin-right: 5px;
 }
 .row:after {
   content: "";
   display: table;
   clear: both;
+  margin-top: 10px;
 }
 p{
     margin-top: 0;
