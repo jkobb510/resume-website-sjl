@@ -9,9 +9,14 @@
 .column {
   float: left;
   width: 100px;
+  padding-top: 10px;
   padding: 5px;
   height: 150px;
   text-align: center;
+}
+
+.row{
+  margin-left: 5%;
 }
 .row:after {
   content: "";
