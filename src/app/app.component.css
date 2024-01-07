@@ -33,10 +33,10 @@
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: rgb(105, 105, 105);
+    background-color: #535252;
     color: rgb(224, 223, 223);
     font-weight: 600;
-    border-bottom: rgb(84, 84, 84) 1px solid;
+    border-bottom: rgb(31, 31, 31) 1px solid;
   }
 
   .content {
@@ -47,7 +47,7 @@
     padding: 0px 16px;
     flex-direction: column;
     font-size: large;
-    background-color: #4a4a4a;
+    background-color: #535252;
     font-size: 1em;
   }
 
