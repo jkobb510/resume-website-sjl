@@ -1,0 +1,34 @@
+{
+  "professionalExperience": {
+    "uniteDigital": {
+      "position": "Software QA Analyst (Contract)",
+      "company": "Unite Digital - Remote",
+      "dates": "06/2023 - 10/2023",
+      "responsibilities": [
+        "Validated 200+ manual tests for CRM-integrated lead management platforms for automotive dealerships.",
+        "Designed Azure test cases and led new QA team members through various enterprise web platforms.",
+        "Expedited the development of automated tests in C#, .NET, Playwright."
+      ]
+    },
+    "bakkt": {
+      "position": "Software Engineer III - SDET",
+      "company": "Bakkt - Alpharetta, GA",
+      "dates": "02/2022 - 03/2023",
+      "responsibilities": [
+        "Designed TypeScript/Node.js automation test scripts with WebdriverIO, Mocha/Chai.",
+        "Facilitated the migration of data from Azure to GCP.",
+        "Queried user data on MySQL DB and verified blob storage API functionality."
+      ]
+    },
+    "selfEmployed": {
+      "position": "Freelance iOS Developer",
+      "company": "Self-Employed - Remote",
+      "dates": "07/2021 - 03/2022",
+      "responsibilities": [
+        "Discussed and documented the design, development, and deployment of an iOS dating/event hosting application.",
+        "Prototyped UI flow on Figma, developed front-end features in Swift.",
+        "Alpha tested with TestFlight to validate UI design and report bugs."
+      ]
+    }
+  }
+}
