@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -27,7 +25,8 @@
   margin-top: 10px;
 }
 p{
-    margin-top: 0;
+    font-size: small;
+
 }
 span{
   color: rgb(224, 223, 223);

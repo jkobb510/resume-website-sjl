@@ -7,11 +7,13 @@ import { SkillsComponent } from './skills/skills.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatExpansionModule} from '@angular/material/expansion';
+import { ToolbarComponent } from './toolbar/toolbar.component';
 @NgModule({
   declarations: [
     AppComponent,
     ExperienceComponent,
-    SkillsComponent
+    SkillsComponent,
+    ToolbarComponent
   ],
   imports: [
     BrowserModule,

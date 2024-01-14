@@ -7,41 +7,40 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-
   p {
+    margin: 0;
     font-size: large;
   }
 
+  .spacer {
+    flex: 1;
+  }
 
-  .content {
-    border-radius: 5px;
+  .toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
     display: flex;
-    margin: 8%;
-    flex-direction: column;
-    font-size: medium;
-    background-color: #414141;
-    font-size: 1em;
-    border: #535252 0.5px solid;
-    padding-top: 15px;
-    padding-left: 45px;
-    padding-right: 45px;
-    padding-bottom: 15px;
+    align-items: center;
+    background-color: #313131;
+    color: rgb(224, 223, 223);
+    font-weight: 600;
+    z-index: 9999;
+    border-bottom: rgb(77, 77, 77) 0.1px solid;
   }
 
 
+  svg.material-icons {
+    height: 24px;
+    width: auto;
+  }
 
+  svg.material-icons:not(:last-child) {
+    margin-right: 8px;
+  }
 
-
-
-
-
-
-
-
-body {
-  font-family: Geneva, Tahoma, sans-serif;
-  font-weight: 500;
-}
 
 @media screen and (max-width: 500px) {
   .header a {
@@ -50,4 +49,7 @@ body {
     text-align: left;
   }
 
+  .header-right {
+    float: none;
+  }
 }

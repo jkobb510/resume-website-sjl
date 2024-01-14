@@ -2,8 +2,7 @@
 p{
     font-size: large;
 }
-html, body { height: 100%; }
 body { 
     font-family: Roboto, "Helvetica Neue", sans-serif;
-    background-color: #3b3b3b; 
+    background-color: #313131;
 }
