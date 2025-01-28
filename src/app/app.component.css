@@ -16,7 +16,9 @@
   .content {
     border-radius: 5px;
     display: flex;
-    margin: 8%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
     flex-direction: column;
     font-size: medium;
     background-color: #414141;

@@ -1,0 +1,62 @@
+{
+  "profile": {
+    "professionalExperience": {
+      "dentalDental":{
+        "position": "Quality Engineer",
+        "company": "Dental Dental",
+        "dates": "02/2024 - Present",
+        "responsibilities": [
+          "Designed and developed Zephyr-integrated automation test scripts with WebDriverIO, Mocha/Chai."
+        ]
+      },
+      "bakkt": {
+        "company": "Bakkt - Alpharetta, GA",
+        "dates": "02/2022 - 03/2023",
+        "position": "Software Engineer III - SDET",
+        "responsibilities": [
+          "Designed TypeScript/Node.js automation test scripts with WebdriverIO, Mocha/Chai.",
+          "Facilitated the migration of data from Azure to GCP.",
+          "Queried user data on MySQL DB and verified blob storage API functionality."
+        ]
+      },
+      "selfEmployed": {
+        "company": "Self-Employed - Remote",
+        "dates": "07/2021 - 03/2022",
+        "position": "Freelance iOS Developer",
+        "responsibilities": [
+          "Discussed and documented the design, development, and deployment of an iOS dating/event hosting application.",
+          "Prototyped UI flow on Figma, developed front-end features in Swift.",
+          "Alpha tested with TestFlight to validate UI design and report bugs."
+        ]
+      },
+      "uniteDigital": {
+        "company": "Unite Digital - Remote",
+        "dates": "06/2023 - 10/2023",
+        "position": "Software QA Analyst (Contract)",
+        "responsibilities": [
+          "Validated 200+ manual tests for CRM-integrated lead management platforms for automotive dealerships.",
+          "Designed Azure test cases and led new QA team members through various enterprise web platforms.",
+          "Expedited the development of automated tests in C#, .NET, Playwright."
+        ]
+      }
+    },
+    "projects": [
+      {
+        "name": "AI Chatbot for PDF Files",
+        "date": "Jan 2023 - Present",
+        "responsibilities": [
+          "Developed LLM-based AI chatbot for PDF files using TypeScript, Pinecone, Langchain, GPT-3.5, and Next.js.",
+          "Provided help to team members for errors blocking set-up and functionality of the application for open-source repository"
+        ]
+      },
+      {
+        "name": "Personal Portfolio",
+        "date": "Oct 2023 - Present",
+        "responsibilities": [
+          "Developed an interactive portfolio website with Angular, TypeScript, Node.js, and MaterialUI.",
+          "Integrated Firebase hosting and its NoSQL real-time database for APIs to retrieve frequently updated portfolio data."
+        ]
+      }
+    ]
+  }
+}

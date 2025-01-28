@@ -1,8 +1,16 @@
 {
   "professionalExperience": {
+    "dentalDental":{
+      "position": "Quality Engineer",
+      "company": "Dental Dental",
+      "dates": "02/2024 - Present",
+      "responsibilities": [
+        "Designed and developed Zephyr-integrated automation test scripts with WebDriverIO, Mocha/Chai."
+      ]
+    },
     "uniteDigital": {
       "position": "Software QA Analyst (Contract)",
-      "company": "Unite Digital - Remote",
+      "company": "Unite Digital",
       "dates": "06/2023 - 10/2023",
       "responsibilities": [
         "Validated 200+ manual tests for CRM-integrated lead management platforms for automotive dealerships.",

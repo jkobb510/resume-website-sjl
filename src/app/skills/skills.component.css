@@ -31,3 +31,29 @@ p{
 span{
   color: rgb(224, 223, 223);
 }
+
+.vertical-tabs {
+  display: flex;
+  flex-direction: row;
+}
+
+.vertical-tabs .mat-tab-labels {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px; /* Set a max-width for labels */
+  border-right: 1px solid #e0e0e0; /* Optional: adds a border between labels and content */
+}
+
+.vertical-tabs .mat-tab-label {
+  width: 100%;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.mat-tab-group.mat-stretch-tabs .mat-tab-labels .mat-tab-label {
+  justify-content: flex-start;
+}
+
+.mat-tab-body-wrapper {
+  width: 100%;
+}

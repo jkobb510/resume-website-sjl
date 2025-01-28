@@ -1,4 +1,4 @@
-<div style="border-top: rgb(112, 112, 112) 1px solid; border-bottom: rgb(112, 112, 112) 1px solid;">
+<div>
 <h2>Professional Experience</h2>
 <img
   src='assets/unitedigital.png'
@@ -13,21 +13,38 @@
           Description
         </mat-panel-title>
       </mat-expansion-panel-header>
-      <p>
-        • Validated 200+ manual tests for CRM-integrated lead management platforms for automotive dealerships by verifying
-        UI/API updates, database changes, and analytics for enterprise clients.<br>
-        • Designed Azure test cases and led new QA team members through various enterprise web platforms and testing
-        practices/protocols.<br>
-        • Expedited the development of automated tests in C#, .NET, Playwright by comparatively discussing various testing
-        tools/frameworks and design practices based on technical needs and limitations.
-
-      </p>
+      <ul>
+        <li *ngFor="let responsibility of uniteDigitalResponsibilities">
+          {{ responsibility }}
+        </li>
+      </ul>
     </mat-expansion-panel>
   </mat-accordion>
 </div>
 <br>
-<img src="https://22005419.fs1.hubspotusercontent-na1.net/hubfs/22005419/Bakkt%20Logo.png" width="100" height="35"
-  style="margin-top: 10px; margin-bottom: 10px;">
+
+<svg width="100" height="50" viewBox="0 0 353 129" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M197.872 48.281H188.188C188.188 57.7774 181.7 64.8761 172.298 64.8761H163.883V29.2883H154.198V98.9126H163.883V74.4195H172.392C181.747 74.5605 188.188 80.672 188.188 90.5915V98.8656H197.872V90.2624C197.872 80.2489 192.184 73.0091 185.414 69.6243C192.184 66.2395 197.872 57.1662 197.872 48.281Z"
+    fill="white" />
+  <path
+    d="M56.4611 47.6228C49.6915 47.6228 43.956 50.4435 40.1481 54.0634V29.2883H30.4637V98.9126H40.1481V93.1771C43.956 96.797 49.6915 99.5237 56.4611 99.5237C70.8467 99.5237 82.5056 88.0059 82.5056 73.6203C82.5056 59.2347 70.8467 47.6228 56.4611 47.6228ZM56.4611 90.0274C47.4349 90.0274 40.1011 82.7406 40.1011 73.6203C40.1011 64.5 47.4349 57.1662 56.4611 57.1662C65.4874 57.1662 72.7272 64.594 72.7272 73.6203C72.7272 82.6465 65.4874 90.0274 56.4611 90.0274Z"
+    fill="white" />
+  <path d="M0 129H329.082V0H0V129ZM9.6844 9.54337H319.35V119.457H9.6844V9.54337Z" fill="white" />
+  <path
+    d="M253.675 48.281H243.99C243.99 57.7774 237.503 64.8761 228.1 64.8761H219.685V29.2883H210.001V98.9126H219.685V74.4195H228.194C237.55 74.5605 243.99 80.672 243.99 90.5915V98.8656H253.675V90.2624C253.675 80.2489 247.986 73.0091 241.217 69.6243C247.986 66.2395 253.675 57.1662 253.675 48.281Z"
+    fill="white" />
+  <path
+    d="M131.116 54.0634C127.308 50.4435 121.572 47.6228 114.802 47.6228C100.417 47.6228 88.758 59.2347 88.758 73.5732C88.758 87.9118 100.417 99.4767 114.802 99.4767C121.619 99.4767 127.308 96.75 131.116 93.1301V98.8655H140.8V48.281H131.116V54.0634ZM114.802 90.0273C105.776 90.0273 98.5364 82.6465 98.5364 73.6203C98.5364 64.594 105.776 57.1662 114.802 57.1662C123.829 57.1662 131.163 64.5 131.163 73.6203C131.163 82.7405 123.829 90.0273 114.802 90.0273Z"
+    fill="white" />
+  <path
+    d="M285.549 37.2332V32.438H275.864V36.5751C275.864 43.5798 271.116 48.328 264.112 48.328H261.949V57.8243H273.608V79.9668C273.608 91.9078 280.613 98.9125 292.554 98.9125H297.913V89.3692H292.883C286.63 89.3692 283.292 86.0784 283.292 79.6378V57.8243H298.618V48.281H281.224C284.186 45.4603 285.549 41.3233 285.549 37.2332Z"
+    fill="white" />
+  <path d="M334.77 1.88048H337.262V9.82545H339.095V1.88048H341.587V0.141045H334.77V1.88048Z" fill="white" />
+  <path
+    d="M351.366 0.141045L347.746 5.5944L344.173 0.141045H342.997V9.82545H344.831V4.23106L347.181 7.75694H348.31L350.707 4.23106V9.82545H352.494V0.141045H351.366Z"
+    fill="white" />
+</svg>
 <h3>Software Engineer III </h3>
 <h4>Bakkt - Alpharetta, GA | February 2022 - March 2023</h4>
 <div style="margin-top:10px;">
@@ -39,17 +56,16 @@
           Description
         </mat-panel-title>
       </mat-expansion-panel-header>
-        • Designed automation test scripts with TypeScript along with Mocha, Chai, WebdriverIO, and Axios to validate UI
-        features and RESTful APIs to ensure quality releases of Bakkt's crypto trading platform. <br>
-        • Facilitated the migration of data from Azure to GCP and legacy features by completing 100+ E2E regression
-        tests, including non-functional requirements like security, compliance, performance, and risk. <br>
-        • Queried data on Azure SQL DB to remove test blockers and to ensure accurate updates to user data storage. <br>
-        • Investigated and reported CI/CD pipeline failures, error logs, and critical bugs to developers that led to a
-        20% decrease in software defects.
+      <ul>
+        <li *ngFor="let responsibility of bakktResponsibilities">
+          {{ responsibility }}
+        </li>
+      </ul>
     </mat-expansion-panel>
   </mat-accordion>
 </div>
 <br>
+
 <img src="assets/funwallet.png" width="50" height="40"
   style="margin-bottom: 10px; margin-top: 10px;">
 <h3>iOS Developer </h3>
@@ -63,101 +79,13 @@
           Description
         </mat-panel-title>
       </mat-expansion-panel-header>
-      <p>
-        • Discussed client’s requested application UI/features and designed the prototype of an iOS event hosting
-        application inspired by Airbnb Experiences. <br>
-        • Developed front-end features in Swift and worked with back-end engineers to integrate Firebase/Cloud Firestore
-        for authentication and user data. <br>
-        • Alpha tested with TestFlight to validate UI design and report bugs to the client.
-      </p>
+      <ul>
+        <li *ngFor="let responsibility of selfEmployedResponsibilities">
+        {{responsibility}}
+        </li>
+      </ul>
     </mat-expansion-panel>
   </mat-accordion>
 </div>
 <br>
 </div>
-<h2>Projects</h2>
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-  y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512; width: 50px;" xml:space="preserve">
-  <style type="text/css">
-    .st0 {
-      fill: #03D47C;
-    }
-
-    .st1 {
-      fill: #002E22;
-    }
-  </style>
-  <path class="st0" d="M256,0L256,0c141.4,0,256,114.6,256,256l0,0c0,141.4-114.6,256-256,256l0,0C114.6,512,0,397.4,0,256l0,0
-	C0,114.6,114.6,0,256,0z" />
-  <path class="st1" d="M326.6,197v-41.7H185.4v201.3h141.2V315h-89.3v-38.6h71.9v-42.7h-71.9V197H326.6z" />
-  <path class="st1" d="M256.3,88.9C256.3,88.9,256.3,88.9,256.3,88.9c35.7,0,68.5,11.1,95.8,30c6.9,4.8,16.4,4.4,22.3-1.5
-	c6.7-6.7,6.3-17.7-1.4-23.3c-32.9-23.7-73.2-37.7-116.7-37.7c-110.3,0-200,89.7-200,200c0,43.5,14,83.9,37.7,116.7
-	c5.5,7.7,16.6,8.1,23.3,1.4c6-6,6.3-15.4,1.5-22.3c-18.9-27.2-30-60.1-30-95.8C88.9,163.8,163.8,88.9,256.3,88.9
-	C256.3,88.9,256.3,88.9,256.3,88.9z" />
-  <path class="st1" d="M421.3,143.4c-5.5-8-16.8-8.5-23.6-1.6c-5.9,5.9-6.4,15.2-1.8,22.2c17.5,26.4,27.8,58.3,27.8,92.4
-	c0,34.2-10.7,67.1-28.9,94.1c-4.7,6.9-4.3,16.3,1.7,22.3c6.8,6.8,17.9,6.3,23.4-1.5c22.9-32.5,36.4-72.1,36.4-114.8
-	C456.3,213.8,443.4,175.4,421.3,143.4z" />
-  <path class="st1" d="M256.3,423.8c-34.1,0-66-10.4-92.4-27.8c-7-4.6-16.3-4.1-22.2,1.8c-6.8,6.8-6.3,18.1,1.6,23.6
-	c32.2,22.1,71.1,35,113,35c42.1,0,82.2-13.5,114.8-36.4c7.8-5.5,8.3-16.7,1.5-23.4c-5.9-5.9-15.3-6.3-22.3-1.6
-	C323.6,413.1,291.2,423.8,256.3,423.8z" />
-</svg>
-<h4>Expensify | Open-Source | December 2023 - Present</h4>
-<div style="margin-top:10px">
-  <mat-accordion>
-    <mat-expansion-panel>
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          Description
-        </mat-panel-title>
-      </mat-expansion-panel-header>
-      <p>
-        • Reviewing documentation, codebase, and set up local environment to become a contributor and propose/implement bug
-        fixes to Expensify’s React Native/JavaScript open-source repository.<br>
-        • Reading issues/pull requests and inspecting UI via React DevTools to understand components within codebase.
-      </p>
-    </mat-expansion-panel>
-  </mat-accordion>
-</div>
-<br>
-<h4>Personal Portfolio | October 2023 - Present</h4>
-<div style="margin-top:10px">
-  <mat-accordion>
-    <mat-expansion-panel>
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          Description
-        </mat-panel-title>
-      </mat-expansion-panel-header>
-      <p>
-        • Validated hundreds of manual tests in UAT and production environments to find critical bugs prior to the
-        release
-        of Unite Digital’s CONNECT platform for enterprise clients.<br>
-        • Verified UI features, XML data, APIs, job files stored via FTP/SFTP, Cosmos DB updates, and integration with
-        3rd
-        parties like Bing and Google for data analytics.<br>
-        • Guided new QA and automation testers through enterprise platforms, SSO integration, and testing protocols.<br>
-        • Discussed technical insights for Azure test plans and the design of automated tests in C#, .NET, and Microsoft
-        Playwright.
-      </p>
-    </mat-expansion-panel>
-  </mat-accordion>
-</div>
-<br>
-<h4>AI Chatbot for PDF Files | May-2023</h4>
-<div style="margin-top:10px">
-  <mat-accordion>
-    <mat-expansion-panel>
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          Description
-        </mat-panel-title>
-      </mat-expansion-panel-header>
-      <p>
-        • Developed LLM-based AI chatbot for PDF files using TypeScript, Pinecone, Langchain, GPT-3.5, and Next.js. <br>
-        • Provided help to team members for errors blocking set-up and functionality of the application for open-source
-        repository.
-      </p>
-    </mat-expansion-panel>
-  </mat-accordion>
-</div>
-<br>

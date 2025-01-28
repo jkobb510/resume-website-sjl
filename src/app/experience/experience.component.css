@@ -9,7 +9,7 @@ h3, h4{
     margin: 2px;
     max-width: 700px;
 }
-mat-expansion-panel-header, mat-expansion-panel, mat-panel-title{
-    background-color: #414141;     
+mat-expansion-panel-header, mat-expansion-panel, mat-panel-title, mat-panel-description{
+    background-color: #414141;    
     color: rgb(224, 223, 223);
 }
